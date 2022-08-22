@@ -341,6 +341,7 @@ footer img{
         flex-direction: column;
         flex-wrap: nowrap;
         text-align: center;
+        margin-right: 10%;
     }
 
     .logo, h1, h2, h3, .imagem{
