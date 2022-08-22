@@ -60,6 +60,27 @@ a{
 
 }
 
+.menuBurger{
+    
+    display: none;
+    margin-right: 10%;
+
+}
+
+.menuBurger:hover{
+
+    cursor: pointer;
+
+}
+
+.espacoMenu{
+
+    display: none;
+    background-color: silver;
+    width: 15%;
+
+}
+
 #faleconosco{
 
     background-color: #180f4a;
@@ -76,6 +97,22 @@ a{
     justify-content: center;
     align-items: center;
  
+}
+
+#h2ComEspaçamentoDeLetra{
+
+    letter-spacing: 5px;
+}
+
+#h2ComTamanhoDeFonte{
+
+    font-size: 60px;
+}
+
+#pComAlinhamentoJustificadoECorCinza{
+
+    color: gray; 
+    text-align: justify;
 }
 
 .texto{
@@ -147,7 +184,7 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30%;
+    width: 350px;
     height: 370px;
     margin: 1%;
     padding: 2%;
@@ -266,4 +303,60 @@ footer img{
   right: 0%;
   bottom: 0%;
 
+}
+
+@media (max-width: 1250px){
+
+    .menu{
+
+        display: none;
+
+    }
+
+    #faleconosco{
+
+        margin: 20px 5px;
+        text-decoration: none;
+        color: #180f4a; 
+        padding: 15px;
+        background-color: white;
+
+    }
+
+    .menuBurger{
+
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+    }
+
+    .menuBurger:hover{
+
+        display: inline-block;
+    }
+
+    .chamarAtencaoUsuario, .organizacaoDosCards{
+
+        flex-direction: column;
+        flex-wrap: nowrap;
+        text-align: center;
+    }
+
+    .logo, h1, h2, h3, .imagem{
+
+        text-align: center;
+    }
+
+    .chamarAtencaoUsuario .texto{
+
+        width: 500px;
+        flex: 25%;
+
+    }
+
+    footer img{
+
+        display: none;
+
+    }
 }
