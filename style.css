@@ -9,12 +9,18 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+
+
 header{
     display: flex;
     height: 100px;
     width: 100%;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    
 }
 
 .logo{
@@ -73,6 +79,7 @@ a{
 
 }
 
+
 .espacoMenu{
 
     display: none;
@@ -96,7 +103,7 @@ a{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-right: 10%;
+    margin-top: 100px;
  
 }
 
@@ -326,14 +333,40 @@ footer img{
 
     .menuBurger{
 
-        display: inline-block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         width: 40px;
         height: 40px;
+       
+        background-color: white;
     }
 
     .menuBurger:hover{
 
-        display: inline-block;
+        display: flex
+    }
+
+    .itensMenuBurger{
+
+        display: none;
+    
+    }
+    
+    .itensMenuBurger:hover{
+    
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .espaçoInterno1, .espaçoInterno2, .espaçoInterno3{
+
+        display: flex;
+        padding: 2px;
+        margin-top: -12px;
+        background-color: #180f4a;
+
     }
 
     .chamarAtencaoUsuario, .organizacaoDosCards{
@@ -341,7 +374,21 @@ footer img{
         flex-direction: column;
         flex-wrap: nowrap;
         text-align: center;
-        margin-right: 10%;
+      
+    }
+
+    .texto{
+
+        margin-left: 0;
+
+    }
+
+    .servicos{
+
+        margin-left: 0;
+        margin-right: 0;
+        margin: auto;
+
     }
 
     .logo, h1, h2, h3, .imagem{
@@ -351,8 +398,8 @@ footer img{
 
     .chamarAtencaoUsuario .texto{
 
-        width: 500px;
-        flex: 25%;
+        width: 400px;
+        margin-left: 10%;
 
     }
 
