@@ -39,6 +39,11 @@
         height: 90px;
     }
 
+    .organizacaoDosCards{
+
+        margin-top: 50px;
+    }
+
 
 }
 
@@ -48,5 +53,10 @@
 
         max-width: 300px;
 
+    }
+
+    .organizacaoDosCards{
+
+        margin-top: 50px;
     }
 }
