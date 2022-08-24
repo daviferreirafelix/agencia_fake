@@ -184,7 +184,6 @@ h2{
     text-align: center;
     font-family: 'Lobster', cursive;
     font-size: 50px;
-    margin: 5%;
 }
 
 .card{
@@ -311,101 +310,4 @@ footer img{
   right: 0%;
   bottom: 0%;
 
-}
-
-@media (max-width: 1250px){
-
-    .menu{
-
-        display: none;
-
-    }
-
-    #faleconosco{
-
-        margin: 20px 5px;
-        text-decoration: none;
-        color: #180f4a; 
-        padding: 15px;
-        background-color: white;
-
-    }
-
-    .menuBurger{
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 40px;
-        height: 40px;
-       
-        background-color: white;
-    }
-
-    .menuBurger:hover{
-
-        display: flex
-    }
-
-    .itensMenuBurger{
-
-        display: none;
-    
-    }
-    
-    .itensMenuBurger:hover{
-    
-        display: flex;
-        flex-direction: column;
-    
-    }
-
-    .espaçoInterno1, .espaçoInterno2, .espaçoInterno3{
-
-        display: flex;
-        padding: 2px;
-        margin-top: -12px;
-        background-color: #180f4a;
-
-    }
-
-    .chamarAtencaoUsuario, .organizacaoDosCards{
-
-        flex-direction: column;
-        flex-wrap: nowrap;
-        text-align: center;
-      
-    }
-
-    .texto{
-
-        margin-left: 0%;
-
-    }
-
-    .servicos{
-
-        margin-left: 0;
-        margin-right: 0;
-        margin: auto;
-
-    }
-
-    .logo, h1, h2, h3, .imagem{
-
-        text-align: center;
-    }
-
-    .chamarAtencaoUsuario .texto{
-
-        width: 400px;
-        margin-left: 10%;
-
-    }
-
-    footer img{
-
-        display: none;
-
-    }
 }

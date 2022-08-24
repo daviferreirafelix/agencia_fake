@@ -1,0 +1,46 @@
+@media screen and (max-width: 1000px){
+
+    .menu{
+
+        display: none;
+
+    }
+
+    .logo{
+
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .chamarAtencaoUsuario{
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .organizacaoDosCards{
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .chamarAtencaoUsuario .texto{
+
+        margin-right: 10%;
+
+    }
+
+
+}
+
+@media screen and (max-width: 600px){
+
+    .card{
+
+        max-width: 300px;
+
+    }
+}
