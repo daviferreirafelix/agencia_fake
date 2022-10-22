@@ -1,15 +1,58 @@
 @media screen and (max-width: 1000px){
 
-    .menu{
+    #menu{
 
         display: none;
-
     }
 
-    .logo{
+    #mostrarMenu{
+
+        display: block;
+    }
+
+    #menu.navegacao{
+
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        position: absolute;
+        top: 98px;
+        margin: 0;
+        background-color: white;      
+        box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.250);
+    }
+
+    #menu a{
 
         text-align: center;
-        margin-left: 0;
+    }
+
+    #menu a:hover{
+
+        background-color: white;
+        color: #180f4a;
+    }
+
+    #faleconosco{
+
+        background-color: #180f4a !important;
+    }
+
+    #mostrarMenu{
+
+        display: block;
+        background-image: url("files/img/menumobile.png");
+        background-position: center;
+        background-size: cover;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+    }
+
+    .logo h1{
+
+        text-align: center;
+        margin: 0;
     }
 
     .chamarAtencaoUsuario{
@@ -58,5 +101,10 @@
     .organizacaoDosCards{
 
         margin-top: 50px;
+    }
+
+    footer img{
+
+        display: none;
     }
 }

@@ -9,18 +9,25 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-
-
 header{
+
     display: flex;
-    height: 100px;
+    min-height: 100px;
     width: 100%;
-    justify-content: center;
     align-items: center;
     position: fixed;
     top: 0;
     background-color: white;
-    
+}
+
+#opcoesMobile{
+
+    display: none;
+}
+
+#mostrarMenu{
+
+    display: none;
 }
 
 .logo{
@@ -35,7 +42,7 @@ header{
     font-family: 'Lobster', cursive;
 }
 
-.menu{
+#menu{
 
     flex: 70%;
     text-align: right;
@@ -46,7 +53,7 @@ a{
     text-decoration: none;
 }
 
-.menu a{
+#menu a{
 
     margin: 20px 5px;
     text-decoration: none;
@@ -54,38 +61,21 @@ a{
     font-size: 1.2em;
     padding: 15px;
     font-weight: bold;
-
 }
 
-.menu a:hover{
+#menu a:hover{
 
     color: white;
     background-color: #ff2978;
     transition-duration: 0.5s;
     border-radius: 5px;
-
 }
-
-.menuBurger{
-    
-    display: none;
-    margin-right: 10%;
-
-}
-
-.menuBurger:hover{
-
-    cursor: pointer;
-
-}
-
 
 .espacoMenu{
 
     display: none;
     background-color: silver;
     width: 15%;
-
 }
 
 #faleconosco{
@@ -93,7 +83,7 @@ a{
     background-color: #180f4a;
     padding: 15px;
     border-radius: 5px;
-    color: white;
+    color: white !important;
 
 }
 
